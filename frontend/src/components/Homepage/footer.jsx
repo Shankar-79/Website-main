@@ -15,35 +15,23 @@ export default function Footer(){
       </div>
     </div>
           
-          <div className="flex justify-between items-center mb-6">
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fas fa-times"></i>
-              </a>
-            </div>
-          </div>
+    
   
          
-          <p className="text-gray-400 text-sm mb-6">Design . Develop . Dominate .</p>
+          <p className=" text-lg font-medium my-6">Design. Develop. Dominate .</p>
   
         
           <div className="mb-6">
             <h3 className="text-lg font-semibold">Contact Us</h3>
-            <p className="text-gray-400">Phone: +91 7264833272</p>
-            <p className="text-gray-400">Email: crob0008@gmail.com</p>
-            <p className="text-gray-400">Location: Khandepar Ponda-Goa</p>
+            <p className="text-sm">Phone: +91 7264833272</p>
+            <p className="text-sm">Email: crob0008@gmail.com</p>
+            <p className="text-sm">Location: Khandepar Ponda-Goa</p>
           </div>
   
         
           <div className="mb-6">
             <h3 className="text-lg font-semibold">Quick Links</h3>
-            <ul className="text-gray-400 space-y-2">
+            <ul className="text-gray-400 ">
               <li><a href="#" className="hover:text-white">Home</a></li>
               <li><a href="#" className="hover:text-white">Categories</a></li>
               <li><a href="#" className="hover:text-white">About</a></li>
@@ -54,7 +42,7 @@ export default function Footer(){
           
           <div>
             <h3 className="text-lg font-semibold">Follow Us</h3>
-            <ul className="text-gray-400 space-y-2">
+            <ul className="text-gray-400 ">
               <li><a href="" className="hover:text-white">Facebook</a></li>
               <li><a href="" className="hover:text-white">Twitter</a></li>
               <li><a href="" className="hover:text-white">Instagram</a></li>

@@ -5,6 +5,8 @@ import SpotlightHeading from "../components/Homepage/Sportlightheading";
 import SpotlightFeature from "../components/Homepage/Spotlightfeature";
 import ReviewSlider from "../components/Homepage/Review";
 import Footer from "../components/Homepage/footer";
+import Book from "../components/Homepage/Book";
+import Clientlogo from "../components/Homepage/Clientlogo";
 
 export default function Homepage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,11 +23,9 @@ export default function Homepage() {
         <SpotlightHeading />   
         <SpotlightFeature /> 
       </div>
-      
-      <div className="w-full flex justify-center items-center py-20">
-        <ReviewSlider />
-       
-      </div>
+      <ReviewSlider />
+      <Clientlogo />
+      <Book />
       <Footer/>
     </div>
   );
