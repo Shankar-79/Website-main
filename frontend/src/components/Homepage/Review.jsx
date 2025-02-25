@@ -55,7 +55,7 @@ const ReviewSlider = () => {
                 alt={reviews[index].name}
                 className="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-gray-300 rounded-xl w-20 h-20 flex items-center justify-center shadow-md"
               />
-              <div className="text-yellow-500 ">{'★'.repeat(reviews[index].rating)}</div>
+              <div className="text-yellow-500 ">{'*'.repeat(reviews[index].rating)}</div>
            
             <div className="mt-10">
               <h3 className="font-semibold text-lg mt-2">{reviews[index].title}</h3>
