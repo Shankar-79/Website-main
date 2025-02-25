@@ -4,6 +4,7 @@ import HeroPanel from "../components/Homepage/Heropanel";
 import SpotlightHeading from "../components/Homepage/Sportlightheading";
 import SpotlightFeature from "../components/Homepage/Spotlightfeature";
 import ReviewSlider from "../components/Homepage/Review";
+import Footer from "../components/Homepage/footer";
 
 export default function Homepage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,9 @@ export default function Homepage() {
       
       <div className="w-full flex justify-center items-center py-20">
         <ReviewSlider />
+       
       </div>
+      <Footer/>
     </div>
   );
 }
