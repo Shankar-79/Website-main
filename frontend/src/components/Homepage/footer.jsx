@@ -32,7 +32,7 @@ export default function Footer(){
          
           <p className="text-gray-400 text-sm mb-6">Design . Develop . Dominate .</p>
   
-          {/* Contact Info */}
+        
           <div className="mb-6">
             <h3 className="text-lg font-semibold">Contact Us</h3>
             <p className="text-gray-400">Phone: +91 7264833272</p>
@@ -40,7 +40,7 @@ export default function Footer(){
             <p className="text-gray-400">Location: Khandepar Ponda-Goa</p>
           </div>
   
-          {/* Quick Links */}
+        
           <div className="mb-6">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="text-gray-400 space-y-2">
@@ -51,7 +51,7 @@ export default function Footer(){
             </ul>
           </div>
   
-          {/* Follow Us */}
+          
           <div>
             <h3 className="text-lg font-semibold">Follow Us</h3>
             <ul className="text-gray-400 space-y-2">
@@ -62,7 +62,7 @@ export default function Footer(){
           </div>
         </div>
   
-        {/* Copyright */}
+        
         <div className="mt-10 text-gray-500 text-sm">
           &copy; 2023-2025 Crob Inc.
         </div>
