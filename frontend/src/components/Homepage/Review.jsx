@@ -5,14 +5,14 @@ import { useSwipeable } from "react-swipeable";
 const reviews = [
   {
     name: "Alex R., CEO, Puff Apparel",
-    image: "https://via.placeholder.com/100",
+    image: "",
     rating: 5,
     feedback:
       "CROB transformed our online presence and boosted our sales by 200%. Their expertise in automation is unmatched!",
   },
   {
     name: "Sophia G.",
-    image: "https://via.placeholder.com/100",
+    image: "",
     rating: 5,
     title: "Professional and Reliable",
     feedback:
@@ -20,7 +20,7 @@ const reviews = [
   },
   {
     name: "Michael T.",
-    image: "https://via.placeholder.com/100",
+    image: "",
     rating: 4,
     feedback:
       "Great service! The team was very responsive and delivered exactly what I needed. I highly recommend them!",
