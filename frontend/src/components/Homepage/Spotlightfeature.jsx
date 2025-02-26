@@ -15,7 +15,7 @@ export default function SpotlightFeature() {
   return (
     <motion.div
       ref={ref}
-      className="bg-[#BEBEBE33] rounded-2xl shadow-lg p-4 w-full text-left mt-2"
+      className="bg-[#BEBEBE33] rounded-2xl shadow-lg p-4 w-full text-left mt-2 ml-20 mr-20"
       initial={{ opacity: 0, y: 20 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, delay: 0.3 }}

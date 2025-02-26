@@ -11,7 +11,7 @@ const logos = [
 
 export default function Clientlogo() {
   return (
-    <div className=" py-10 text-center overflow-hidden">
+    <div className="py-10 text-center overflow-hidden">
       <h2 className="text-xl font-bold mb-4 border-t-2 border-b-2 inline-block px-4 py-2">Our Clients</h2>
       <motion.div
         className="flex space-x-6 mt-6 w-max"

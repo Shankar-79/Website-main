@@ -46,7 +46,7 @@ const ReviewSlider = () => {
   });
 
   return (
-    <div className="p-10 bg-white h-full flex flex-col items-center mt-15 relative mb-50">
+    <div className="p-10 bg-transparent h-full flex flex-col items-center mt-15 relative mb-50">
        <h2 className="text-2xl font-semibold font-inter mb-10 text-[#D364A3] underline whitespace-nowrap shadow-lg">
         WHAT CLIENTS SAY ABOUT US
       </h2>
